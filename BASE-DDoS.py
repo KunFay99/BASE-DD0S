@@ -72,7 +72,7 @@ def start_ddos(prox, url, headers, proxies, color):
 		s = r.Session()
 		req = s.get(url, headers=headers, proxies=proxies)
 		if req.status_code == 200:
-			print(color+"{}حق ::..".format(prox))
+			print(color+"{}::..حق ".format(prox))
 	except:
 		pass
 
