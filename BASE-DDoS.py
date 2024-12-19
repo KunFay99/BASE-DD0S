@@ -15,8 +15,9 @@ def clear():
 def logo():
 
 # Colored ASCII Art for "sniperelite" using '|_' style
-def ascii_art_sniperelite():
-    print("""
+   def ascii_art_sniperelite():
+                     print("""
+\033[1;31m \033[0m
 \033[1;31m     /$$$$$$$$$\       / $$$\      /$$$$$$$$$|   /$$$$$$$$$| \033[0m
 \033[1;31m    | $$    \ $$|     / $$ $$\    | $$______/   | $$|______/ \033[0m
 \033[1;36m    | $$    | $$/    / $$ \ $$\   | $$|         | $$     
