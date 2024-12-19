@@ -36,7 +36,7 @@ def authenticate():
         print("\033[1;31mIncorrect password. Exiting...\033[0m")
         exit()
 
-033[1;34m\n\n[ Dev: ASCII . by ZanAhmad ]\n[ The program uses a simple type of DDoS attack\n  \"HTTP flood\" using multithreading and a proxies ]\n[ The program was created for informational purposes !!! ]\n\n"033[0m\n"+Style.RESET_ALL)
+print(\033[1;34m\n\n[ Dev: ASCII . by ZanAhmad ]\n[ The program uses a simple type of DDoS attack\n  \"HTTP flood\" using multithreading and a proxies ]\n[ The program was created for informational purposes !!! ]\n\n"033[0m\n"+Style.RESET_ALL)
 
 def check_prox(array, url):
 	ip = r.post("http://ip.beget.ru/").text
