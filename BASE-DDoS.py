@@ -14,9 +14,9 @@ def clear():
 
 def logo():
 
-# Colored ASCII Art for "sniperelite" using '|_' style
-	def ascii_art_sniperelite():
-                           print("""
+# Colored ASCII Art for "" using '|_' style
+def ascii_art_sniperelite():
+print("""
 \033[1;31m     /$$$$$$$$$\       / $$$\      /$$$$$$$$$|   /$$$$$$$$$| \033[0m
 \033[1;31m    | $$    \ $$|     / $$ $$\    | $$______/   | $$|______/ \033[0m
 \033[1;36m    | $$    | $$/    / $$ \ $$\   | $$|         | $$     
@@ -50,7 +50,7 @@ def check(ip, prox, url):
 	except:
 		ipx = ip
 	if ip != ipx:
-		print(\033[1;32m.133[0m"{} good! Starting...".format(prox)+Style.RESET_ALL)
+		print("\033[1;32m.133[0m"){} good! Starting...".format(prox)+Style.RESET_ALL)
 		thread_list = []
 		t = threading.Thread (target=ddos, args=(prox, url))
 		thread_list.append(t)
