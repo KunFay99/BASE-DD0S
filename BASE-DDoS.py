@@ -15,8 +15,8 @@ def clear():
 def logo():
 
 # Colored ASCII Art for "sniperelite" using '|_' style
-def ascii_art_sniperelite():
-    print("""
+	def ascii_art_sniperelite():
+                           print("""
 \033[1;31m     /$$$$$$$$$\       / $$$\      /$$$$$$$$$|   /$$$$$$$$$| \033[0m
 \033[1;31m    | $$    \ $$|     / $$ $$\    | $$______/   | $$|______/ \033[0m
 \033[1;36m    | $$    | $$/    / $$ \ $$\   | $$|         | $$     
@@ -35,8 +35,6 @@ def authenticate():
     if user_password != password:
         print("\033[1;31mIncorrect password. Exiting...\033[0m")
         exit()
-
-print(033[1;34m\n\n[ Dev: ASCII . by ZanAhmad ]\n[ The program uses a simple type of DDoS attack\n  \"HTTP flood\" using multithreading and a proxies ]\n[ The program was created for informational purposes !!! ]\n\n"033[0m\n"+Style.RESET_ALL)
 
 def check_prox(array, url):
 	ip = r.post("http://ip.beget.ru/").text
