@@ -30,9 +30,8 @@ def logo():
 \033[1;34m. ████▒▒█.   █▒   ████▒ █▒▒█▒▒.     █▒ █▒▒       █▒▒.    █▒▒.   █████▒█▒▒█. ██▒▒ █▒▒
 \033[1;34m. █▒▒.   █▒▒ █▒.  █▒▒.  █▒▒  █████▒▒█▒▒  █▒▒     █▒▒.   █████▒▒█▒▒▒  █▒▒█▒▒.     █▒▒
 \033[1;34m══════════════════════════════════════════════════════════════════════════════════	
-"""
-faded_text = fade.fire(logo)
-‎print(faded_text)
+\033[1;34m    ## BRIGADE ATTACKER SNIPER ELITE ==> internal script By:ZA99\033[0m ##
+""")
 # Password authentication function
 def authenticate():
     password = "BASe"  # The password to access the tool
