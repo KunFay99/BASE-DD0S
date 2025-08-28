@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # -*- coding: utf-8  -*-
-
 import requests as r, os, threading, random, click, fake_headers
 from threading import Thread
 from colorama import Fore, Style, Back
@@ -13,12 +12,8 @@ def clear():
 		os.system('clear')
 
 def logo():
-
-# Colored ASCII Art for "sniperelite" using '|_' style
-   def ascii_art_sniperelite():
-
-os.system("clear")
-‎logo = """
+  def ascii_art_sniperelite():
+     print("""
 \033[1;31m═════════════════════════════════════════════════════════════════════			 
 \033[1;31m	 
 \033[1;31m.             ████████▒▒       █████▒▒         ██████▒▒     ████████▒▒
