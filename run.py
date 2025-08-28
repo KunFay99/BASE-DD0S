@@ -35,8 +35,9 @@ os.system("clear")
 \033[1;34m. ████▒▒█.   █▒   ████▒ █▒▒█▒▒.     █▒ █▒▒       █▒▒.    █▒▒.   █████▒█▒▒█. ██▒▒ █▒▒
 \033[1;34m. █▒▒.   █▒▒ █▒.  █▒▒.  █▒▒  █████▒▒█▒▒  █▒▒     █▒▒.   █████▒▒█▒▒▒  █▒▒█▒▒.     █▒▒
 \033[1;34m══════════════════════════════════════════════════════════════════════════════════	
-
-
+"""
+faded_text = fade.fire(logo)
+‎print(faded_text)
 # Password authentication function
 def authenticate():
     password = "BASe"  # The password to access the tool
